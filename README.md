@@ -2,9 +2,7 @@
 
 ### <p align="center">💖 Devcify</p>
 
-Easily generate your slick, unique github developer profile card in one click
-
-<img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/devcard.png">
+<p align="center">Easily generate your slick, unique github developer profile card in one click </p>
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/benrobo/devcify/main?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/benrobo/devcify?style=for-the-badge)
@@ -13,6 +11,8 @@ Easily generate your slick, unique github developer profile card in one click
 ![GitHub Repo stars](https://img.shields.io/github/stars/benrobo/devcify?style=for-the-badge)
 ![GitHub watchers](https://img.shields.io/github/watchers/benrobo/devcify?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/benrobo/devcify?style=for-the-badge)
+
+<img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/devcard.png">
 
 ### Sample of generated github profile card.
 
