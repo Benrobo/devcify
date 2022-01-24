@@ -1,10 +1,31 @@
-<center> <img src="https://raw.githubusercontent.com/Benrobo/devcard/main/public/logo.png" width="100" /> </center>
+<p align="center"> <img src="https://raw.githubusercontent.com/Benrobo/devcify/main/public/logo.png" width="100" /> </p>
 
-### <center>💖 Devcify</center>
+### <p align="center">💖 Devcify</p>
 
-#### Easily generate your slick, unique github developer profile card in one click
+Easily generate your slick, unique github developer profile card in one click
 
-<img src="https://raw.githubusercontent.com/Benrobo/devcard/main/readmeImg/devcard.png">
+<img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/devcard.png">
+
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/benrobo/devcify/main?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/benrobo/devcify?style=for-the-badge)
+![GitHub all releases](https://img.shields.io/github/downloads/benrobo/devcify/total?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/benrobo/health-tools?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/benrobo/devcify?style=for-the-badge)
+![GitHub watchers](https://img.shields.io/github/watchers/benrobo/devcify?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/benrobo/devcify?style=for-the-badge)
+
+### Sample of generated github profile card.
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a2.png">
+
+<img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a1.png">
+
+<img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a3.png">
+
+<img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a4.png">
+
+</p>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
