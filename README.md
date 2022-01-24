@@ -16,7 +16,7 @@ Easily generate your slick, unique github developer profile card in one click
 
 ### Sample of generated github profile card.
 
-<p align="left">
+<p align="center">
 <img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a2.png">
 
 <img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a1.png">
