@@ -1,0 +1,136 @@
+.loaderCard {
+  width: 200px;
+  height: 250px;
+  max-height: 250px;
+  position: relative;
+  background: var(--dark-m);
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 15px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.2s ease;
+  animation: load 1s linear infinite;
+}
+
+.loaderCard .img {
+  width: 100px;
+  height: 100px;
+  background: var(--dark);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.loaderCard .fname {
+  width: 80%;
+  height: 4px;
+  padding: 10px;
+  background: var(--dark);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.loaderCard .aka {
+  width: 50%;
+  height: 4px;
+  padding: 10px;
+  background: var(--dark);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.loaderCard .info {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.loaderCard .info .repo {
+  padding: 10px;
+  width: 40%;
+  background: var(--dark);
+  margin-right: 10px;
+}
+
+.loaderCard .info .follower {
+  padding: 10px;
+  width: 50%;
+  background: var(--dark);
+}
+
+/* organization loader */
+.OrgLoaderCard {
+  width: 300px;
+  height: 100px;
+  max-height: 250px;
+  position: relative;
+  background: var(--dark-m);
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 15px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.2s ease;
+  animation: load 1s linear infinite;
+}
+
+.OrgLoaderCard .img {
+  width: 70px;
+  height: 70px;
+  background: var(--dark);
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.OrgLoaderCard .info {
+  width: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+
+.OrgLoaderCard .fname {
+  width: 100%;
+  height: 4px;
+  padding: 10px;
+  background: var(--dark);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.OrgLoaderCard .aka {
+  width: 80%;
+  height: 4px;
+  padding: 10px;
+  background: var(--dark);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+@keyframes load {
+  0% {
+    opacity: 0.5;
+    transition: 0.2s ease;
+  }
+  50% {
+    opacity: 1;
+    transition: 0.2s ease;
+  }
+  100% {
+    opacity: 0.5;
+    transition: 0.2s ease;
+  }
+}

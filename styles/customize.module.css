@@ -1,0 +1,28 @@
+.mainCont {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--dark-m);
+  color: var(--light-m);
+  position: fixed;
+  bottom: 0px;
+  margin: 0px auto;
+  left: 0px;
+  z-index: 900;
+  transition: 0.2s ease;
+}
+
+.mainCont .box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainCont .box label {
+  padding: 10px;
+}

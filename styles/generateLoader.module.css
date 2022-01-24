@@ -1,0 +1,203 @@
+.generateLBox {
+  width: 300px;
+  height: 500px;
+  max-height: 500px;
+  background: var(--dark);
+  color: var(--light);
+  transition: 0.2s ease;
+  opacity: 0.5;
+  animation: grow 2s linear infinite;
+  filter: blur(2px);
+}
+
+.generateLBox .top {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.generateLBox .top .circleB {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  top: 20px;
+  border-radius: 50%;
+  background: #29282d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.generateLBox .top .circleB .avatar {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.generateLBox .top .circleB .langContA {
+  position: absolute;
+  left: -10px;
+  top: 150px;
+  padding: 25px;
+  font-size: 56px;
+  background: #2d2e32;
+  box-shadow: 0px 0px 4px #000000a2;
+  border-radius: 50%;
+  color: var(--l-blue);
+}
+
+.generateLBox .top .circleB .langContB {
+  position: absolute;
+  right: 20px;
+  top: 180px;
+  padding: 45px;
+  font-size: 70px;
+  background: #2d2e32;
+  box-shadow: 0px 0px 10px #000000a2;
+  border-radius: 50%;
+  color: var(--green);
+}
+
+.generateLBox .top .circleB .langContC {
+  position: absolute;
+  right: -5px;
+  top: 30px;
+  padding: 35px;
+  font-size: 50px;
+  background: #2d2e32;
+  box-shadow: 0px 0px 4px #000000a2;
+  border-radius: 50%;
+  color: var(--l-purple);
+}
+
+.generateLBox .bottom {
+  width: 100%;
+  height: auto;
+}
+
+.generateLBox .bottom .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.generateLBox .bottom .top h2,
+.generateLBox .bottom .top h3 {
+  margin: 0px;
+  padding: 10px;
+  line-height: 10px;
+}
+
+.generateLBox .bottom .top h3 {
+  font-weight: 200;
+}
+
+.generateLBox .bottom .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  position: relative;
+  top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.generateLBox .bottom .bottom .box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.generateLBox .bottom .bottom h2 {
+  font-weight: 300;
+}
+
+.generateLBox .bottom .bottom .icon {
+  opacity: 0.5;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 350px; */
+  margin: 10px auto;
+  position: fixed;
+  right: 0px;
+  top: 200px;
+}
+
+.action .download {
+  padding: 10px;
+  font-size: 45px;
+  margin: 10px;
+  border-radius: 50%;
+  background: var(--dark-m);
+  transform: scale(0.8);
+  transition: 0.2s ease;
+  cursor: pointer;
+  opacity: 0.7;
+  box-shadow: 0px 0px 5px var(--dark);
+}
+
+.action .share {
+  padding: 10px;
+  font-size: 45px;
+  margin: 10px;
+  border-radius: 50%;
+  background: var(--dark-m);
+  transform: scale(0.8);
+  transition: 0.2s ease;
+  opacity: 0.7;
+  box-shadow: 0px 0px 5px var(--dark);
+}
+
+.action .close {
+  padding: 10px;
+  font-size: 45px;
+  margin: 10px;
+  border-radius: 50%;
+  color: red;
+  background: rgba(255, 0, 0, 0.2);
+  transform: scale(0.8);
+  transition: 0.2s ease;
+  opacity: 0.7;
+  box-shadow: 0px 0px 5px var(--dark);
+  cursor: pointer;
+}
+
+.action .download:hover,
+.action .share:hover,
+.action .close:hover {
+  transform: scale(0.9);
+  transition: 0.2s ease;
+  opacity: 1;
+}
+
+@keyframes grow {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.9;
+    filter: blur(1px);
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
