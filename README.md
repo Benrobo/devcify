@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/Benrobo/devcify/main/public/logo.png" width="100" /> </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/Benrobo/devcify/main/public/logo.png" width="100" style="border-radius:20%" /> </p>
 
 ### <p align="center">💖 Devcify</p>
 
@@ -16,48 +16,41 @@ Easily generate your slick, unique github developer profile card in one click
 
 ### Sample of generated github profile card.
 
-<p align="center">
+<p align="left">
 <img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a2.png">
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a1.png">
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a3.png">
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://raw.githubusercontent.com/Benrobo/devcify/main/readmeImg/a4.png">
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#### Reason Behind 🔥🔥.
 
-## Getting Started
+Every developers around the world, want to make their github profile looks awesome to candidate recruiting. Using this piece of software solves that, you can easily generate a unique github profile developer card which can then be shared on an y social media platform or be embeded in your main github profile readme file.
 
-First, run the development server:
+#### Created By
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[@benrobo ✨](https://github.com/benrobo)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Creatd with
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Hosted with
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
-## Learn More
+#### Built on
 
-To learn more about Next.js, take a look at the following resources:
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you enjoy using this piece of tools, why not give it a star on github so others can get to use it.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+###### Follow me for more
 
-## Deploy on Vercel
+- [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) ](https://www.linkedin.com/in/benaiah-alumona-491b35220/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BkBUrhZmnQs2tLwXQ3rLoKA%3D%3D)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [![Twitter](https://img.shields.io/badge/<AlumonaBenaiah>-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twiter.com/AlumonaBenaiah)
